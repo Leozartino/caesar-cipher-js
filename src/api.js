@@ -4,7 +4,7 @@ const answerFile = require("./util/answer.json");
 const julio_cesar_crypto = require("./algorithms/julio_cesar_crypto");
 const sha1 = require("./algorithms/sha1");
 
-const formData = new FormData();
+// const formData = new FormData();
 const decodifica = julio_cesar_crypto;
 
 const personalToken = require("./util/personalToken").personalToken;
